@@ -6,7 +6,6 @@
 
 This repo will help you get setup to run the Supercog system on your local
 machine. This is especially useful if you need to:
-
 - Develop new agent tools
 - Run tools which require localhost access
 - Want to run agents locally with full data controls
@@ -15,7 +14,7 @@ machine. This is especially useful if you need to:
 
 You will need these core pieces:
 
-1. Docker
+1. [Docker](https://docs.docker.com/engine/install/)
 2. OpenAI [API key](https://openai.com/index/openai-api/)
 
 Optional:
@@ -56,7 +55,7 @@ instructions for dynamically adding and working with tools. Try a conversation
 like this:
 
 ```text
-    you) What tools are available?_
+    you) What tools are available?
 
     Here are the tools that are available for use:
 
